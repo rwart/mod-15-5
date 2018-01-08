@@ -2,4 +2,5 @@ tmp
 node_modules
 npm-debug.log
 src/GIPHY.jsx
+src/GIPHY.es6
 dest/GIPHY.js
