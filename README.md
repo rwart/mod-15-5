@@ -1,5 +1,5 @@
-# mod-14-8
-Gif search Powered by Giphy
+# mod-15-5
+Gif search (with Promise) Powered by Giphy
 
 npm install
 

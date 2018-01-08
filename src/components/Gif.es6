@@ -1,17 +1,17 @@
-//var GIPHY_LOADING_URL = 'http://www.ifmo.ru/images/loader.gif';
-var GIPHY_LOADING_URL = 'https://loading.io/spinners/gear-set/lg.triple-gears-loading-icon.gif';
-var styles = {
-  minHeight: '310px',
-  margin: '0.5em',
-};
+var GIPHY_LOADING_URL = `https://loading.io/spinners/gear-set/
+lg.triple-gears-loading-icon.gif`;
 
-Gif = React.createClass({
+var Gif = React.createClass({
   getUrl: function () {
     return this.props.sourceUrl || GIPHY_LOADING_URL;
   },
 
   render: function () {
-    var url = this.props.loading ? GIPHY_LOADING_URL : this.props.url;
+    const url = this.props.loading ? GIPHY_LOADING_URL : this.props.url;
+    const styles = {
+      minHeight: '310px',
+      margin: '0.5em',
+    };
 
     return (
       <div style={styles}>

@@ -1,10 +1,8 @@
-Search = React.createClass({
+var Search = React.createClass({
   displayName: 'Search',
 
   getInitialState: function getInitialState() {
-    return {
-      searchingText: ''
-    };
+    return { searchingText: '' };
   },
 
   handleChange: function handleChange(event) {

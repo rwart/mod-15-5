@@ -1,9 +1,5 @@
-Search = React.createClass({
-  getInitialState: function () {
-    return {
-      searchingText: '',
-    };
-  },
+var Search = React.createClass({
+  getInitialState: () => ({ searchingText: '', }),
 
   handleChange: function (event) {
     var searchingText = event.target.value;

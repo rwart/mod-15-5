@@ -1,5 +1,5 @@
 {
-  "name": "mod-14-8",
+  "name": "mod-15-5",
   "version": "1.0.0",
   "description": "",
   "main": "Gruntfile.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rwart/mod-14-8.git"
+    "url": "git+https://github.com/rwart/mod-15-5.git"
   },
   "author": "rwart",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/rwart/mod-14-8/issues"
+    "url": "https://github.com/rwart/mod-15-5/issues"
   },
-  "homepage": "https://github.com/rwart/mod-14-8#readme",
+  "homepage": "https://github.com/rwart/mod-15-5#readme",
   "devDependencies": {
     "babel-core": "^6.0.20",
     "babel-plugin-transform-remove-strict-mode": "0.0.2",
